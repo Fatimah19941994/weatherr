@@ -77,7 +77,7 @@ struct WeatherDayView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 50, height: 50)
         Text("\(tempreture)°")
-                .font(.system(size: 20, weight: .medium))
+                .font(.system(size: 21, weight: .medium))
                 .foregroundColor(.white)
             
             
